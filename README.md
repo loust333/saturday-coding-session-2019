@@ -48,12 +48,25 @@ HTML Online Validator:
 
 - https://validator.w3.org/nu/
 
-Ressources:
+**Resources:**
 
 - https://www.w3schools.com/html/default.asp
 - https://www.freecodecamp.org/news/the-html-handbook/
 
 ## 16/11 - CSS
+
+<!-- Presentation: [HTML Presentation](powerpoint/HTML.pdf) -->
+
+### Tools for CSS
+
+Tools that can improve our coding sessions.
+
+- https://www.w3schools.com/colors/colors_picker.asp
+
+**Resources:**
+
+https://www.w3schools.com/css/default.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ## 23/11 - JAVASCRIPT
 

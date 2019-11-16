@@ -67,6 +67,10 @@ Tools that can improve our coding sessions.
 
 https://www.w3schools.com/css/default.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS
+https://meiert.com/en/indices/css-properties/
+https://www.freecodecamp.org/news/learn-css-in-this-free-6-hour-video-course/
+https://www.freecodecamp.org/news/7-important-tips-for-writing-better-css/
+https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
 
 ## 23/11 - JAVASCRIPT
 

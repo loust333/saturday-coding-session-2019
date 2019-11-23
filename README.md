@@ -48,7 +48,7 @@ HTML Online Validator:
 
 - https://validator.w3.org/nu/
 
-**Resources:**
+**Sources:**
 
 - https://www.w3schools.com/html/default.asp
 - https://www.freecodecamp.org/news/the-html-handbook/
@@ -64,7 +64,7 @@ Tools that can improve our coding sessions.
 - https://www.w3schools.com/colors/colors_picker.asp
 - https://caniuse.com/
 
-**Resources:**
+**Sources:**
 
 - https://www.w3schools.com/css/default.asp
 - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -75,6 +75,23 @@ Tools that can improve our coding sessions.
 - https://css-tricks.com/
 
 ## 23/11 - CSS Layouts, Grid System, Flexbox, Bootstrap and more
+
+Presentation: [CSS Part 2 Presentation](powerpoint/CSS_part2.pdf)
+
+Layouts Live example: [Here](project_second_week/index.html)
+
+You can download the Layouts example: [Here](project_second_week.zip)
+
+
+**Sources:**
+
+- https://medium.com/@rebeccapeltz/css-layout-evolution-detailed-by-example-579b31475392
+- https://www.w3schools.com/css/css_website_layout.asp
+- https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390
+- https://www.w3schools.com/css/css_rwd_intro.asp
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://gridbyexample.com/examples/
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## 30/11 - JAVASCRIPT
 

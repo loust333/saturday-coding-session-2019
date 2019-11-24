@@ -2,18 +2,19 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/custom9.css">
-        <title>Dogs&Cats - Chapter 9</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/custom12.css">
+        <title>Dogs&Cats - Chapter 11</title>
     </head>
     <body>
-        <div class="main">
+        <div class="container">
             <div class="row">
-                <div class="cell">
+                <div class="col-3">
                     <h1>
-                        Dogs&Cats <br> Chapter 9
+                        Dogs&Cats <br> Chapter 11
                     </h1>
                 </div> 
-                <div class="cell header-description">
+                <div class="col">
                     The evolution of layouts with help from dogs and cats.
                     <br>
                     In CSS a new value for the property "display" appeared: table
@@ -24,13 +25,13 @@
                     <span class="warning">See below what happens</span>
                     <br>
                     <strong>
-                       display: table; / display: table-row; display: table-cell; 
+                        display: table; / display: table-row; display: table-cell; 
                     </strong>
-
-                </div>   
-            </div>
-            <div class="row">
-                <div class="cell sidebar">
+    
+                </div> 
+        </div>
+        <div class="row">
+            <div class="col-4">
                     <ul>
                         <li>
                             <a href="index.html">
@@ -82,74 +83,63 @@
                                 I don't want to decide how many columns or rows!
                             </a>
                         </li>
+                        <li>
+                            <a href="index11.html">
+                                I want to more flexibel with the images!
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <div class="cell container">
-                    <div class="content">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col">
+                            Dogs
+                        </div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-3">
+                            <img class="img-fluid img-thumbnail" src="images/dogs/james.jpeg" alt="james">
+                            <p>James</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid img-thumbnail " src="images/dogs/jimmy.jpg" alt="jimmy">
+                            <p>Jimmy</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid img-thumbnail" src="images/dogs/luna.jpeg" alt="luna">
+                            <p>Luna</p>
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid img-thumbnail" src="images/dogs/miro.jpeg" alt="miro">
+                            <p>Miro</p>
+                        </div>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-12">
+                            Cats
+                        </div>    
+                    </div>
                         <div class="row">
-                            <div class="cell title-animal">
-                                Dogs
-                            </div> 
-                            <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-
-                        </div>
-                        <div class="row list">
-                            <div class="cell">
-                                <img class="animal" src="images/dogs/james.jpeg" alt="james">
-                                James
+                            <div class="col-3">
+                                <img class="img-fluid rounded" src="images/cats/amalia.jpeg" alt="chiara">
+                                <p>Amalia</p>
                             </div>
-                            <div class="cell">
-                                <img class="animal" src="images/dogs/jimmy.jpg" alt="jimmy">
-                                Jimmy
+                            <div class="col-3">
+                                <img class="img-fluid rounded" src="images/cats/chiara.jpeg" alt="chiara">
+                                <p>Chiara</p>
                             </div>
-                            <div class="cell">
-                                <img class="animal" src="images/dogs/luna.jpeg" alt="luna">
-                                Luna
+                            <div class="col-3">
+                                <img class="img-fluid" src="images/cats/garcia.jpeg" alt="garcia">
+                                <p>Garcia</p>
                             </div>
-                            <div class="cell">
-                                <img class="animal" src="images/dogs/miro.jpeg" alt="miro">
-                                Miro
-                            </div>
-                            <div class="cell">
-                                <img class="animal" src="images/dogs/yoshi.jpg" alt="yoshi">
-                                Yoshi
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="cell title-animal">
-                                Cats
-                            </div>    
-                             <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-                            <div class="cell title-animal"></div>
-                        </div>
-                        <div class="row list">
-                            <div class="cell">
-                                <img class="animal" src="images/cats/amalia.jpeg" alt="amalia">
-                                Amalia
-                            </div>
-                            <div class="cell">
-                                <img class="animal" src="images/cats/chiara.jpeg" alt="chiara">
-                                Chiara
-                            </div>
-                            <div class="cell">
-                                <img class="animal" src="images/cats/garcia.jpeg" alt="garcia">
-                                Garcia
-                            </div>
-                            <div class="cell">
-                                <img class="animal" src="images/cats/picco.jpeg" alt="piccoo">
-                                Piccoo
-                            </div>
-                            <div class="cell">
+                            <div class="col-3">
+                                <img class="img-fluid" src="images/cats/picco.jpeg" alt="piccoo">
+                                <p>Piccoo</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </div>
     </body>
 </html>

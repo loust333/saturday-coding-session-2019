@@ -3,11 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/custom12.css">
+        <!-- <link rel="stylesheet" href="css/custom12.css"> -->
         <title>Dogs&Cats - Chapter 11</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
                     <h1>
@@ -27,114 +27,131 @@
                     <strong>
                         display: table; / display: table-row; display: table-cell; 
                     </strong>
-    
                 </div> 
-        </div>
+            </div>
+        <div>
         <div class="row">
-            <div class="col-4">
-                    <ul>
-                        <li>
-                            <a href="index.html">
-                                Table layout without attributes
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index2.html">
-                                Table layout with border attribute
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index3.html">
-                                Table layout with border attribute for the two tables
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index4.html">
-                                Table layout with colspans and rowspans
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index5.html">
-                                Table layout, fix the width images
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index6.html">
-                                Table layout, fix the height images
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index7.html">
-                                Table layout without border. Very nice!
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index8.html">
-                                Table layout with styling
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index9.html">
-                                Replace table tag with div tag
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index10.html">
-                                I don't want to decide how many columns or rows!
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index11.html">
-                                I want to more flexibel with the images!
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-8">
+            <nav class="col-2 d-none d-md-block bg-light sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Table layout without attributes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">
+                            Table layout with border attribute
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html">
+                            Table layout with border attribute for the two tables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index4.html">
+                            Table layout with colspans and rowspans
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index5.html">
+                            Table layout, fix the width images
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index6.html">
+                            Table layout, fix the height images
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index7.html">
+                            Table layout without border. Very nice!
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index8.html">
+                            Table layout with styling
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index9.html">
+                            Replace table tag with div tag
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index10.html">
+                            I don't want to decide how many columns or rows!
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index11.html">
+                            I want to more flexibel with the images!
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                <div class="col">
                     <div class="row">
                         <div class="col">
-                            Dogs
+                            <h1>Dogs</h1>
                         </div>
                     </div>
                     <div class="row">                        
                         <div class="col-3">
-                            <img class="img-fluid img-thumbnail" src="images/dogs/james.jpeg" alt="james">
-                            <p>James</p>
+                            <figure class="figure">
+                                <img class="img-fluid img-thumbnail" src="images/dogs/james.jpeg" alt="james">
+                                <figcaption class="figure-caption text-center">James</figcaption>
+                            </figure>
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid img-thumbnail " src="images/dogs/jimmy.jpg" alt="jimmy">
-                            <p>Jimmy</p>
+                            <figure class="figure">
+                                <img class="img-fluid img-thumbnail " src="images/dogs/jimmy.jpg" alt="jimmy">
+                                <figcaption class="figure-caption text-center">Jimmy</figcaption>
+                            </figure>
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid img-thumbnail" src="images/dogs/luna.jpeg" alt="luna">
-                            <p>Luna</p>
+                            <figure class="figure">
+                                <img class="img-fluid img-thumbnail" src="images/dogs/luna.jpeg" alt="luna">
+                                <figcaption class="figure-caption text-center">Luna</figcaption>
+                            </figure>
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid img-thumbnail" src="images/dogs/miro.jpeg" alt="miro">
-                            <p>Miro</p>
+                            <figure class="figure">
+                                <img class="img-fluid img-thumbnail" src="images/dogs/miro.jpeg" alt="miro">
+                                <figcaption class="figure-caption text-center">Miro</figcaption>
+                            </figure>
                         </div>
                     </div>
+                    <hr>
                     <div class="row">                        
                         <div class="col-12">
-                            Cats
+                            <h1>Cats</h1>
                         </div>    
                     </div>
                         <div class="row">
                             <div class="col-3">
-                                <img class="img-fluid rounded" src="images/cats/amalia.jpeg" alt="chiara">
-                                <p>Amalia</p>
+                                <figure class="figure">
+                                    <img class="img-fluid img-thumbnail" src="images/cats/amalia.jpeg" alt="chiara">
+                                    <figcaption class="figure-caption text-center">Amalia</figcaption>
+                                </figure>
                             </div>
                             <div class="col-3">
-                                <img class="img-fluid rounded" src="images/cats/chiara.jpeg" alt="chiara">
-                                <p>Chiara</p>
+                                <figure class="figure">
+                                    <img class="img-fluid img-thumbnail" src="images/cats/chiara.jpeg" alt="chiara">
+                                    <figcaption class="figure-caption text-center">Chiara</figcaption>
+                                </figure>
                             </div>
                             <div class="col-3">
-                                <img class="img-fluid" src="images/cats/garcia.jpeg" alt="garcia">
-                                <p>Garcia</p>
+                                <figure class="figure">
+                                    <img class="img-fluid img-thumbnail" src="images/cats/garcia.jpeg" alt="garcia">
+                                    <figcaption class="figure-caption text-center">Garcia</figcaption>
+                                </figure>
                             </div>
                             <div class="col-3">
-                                <img class="img-fluid" src="images/cats/picco.jpeg" alt="piccoo">
-                                <p>Piccoo</p>
+                                <figure class="figure">
+                                    <img class="img-fluid img-thumbnail" src="images/cats/picco.jpeg" alt="piccoo">
+                                    <figcaption class="figure-caption text-center">Piccoo</figcaption>
+                                </figure>
                             </div>
                         </div>
                     </div>

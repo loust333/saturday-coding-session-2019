@@ -95,6 +95,15 @@ You can download the Layouts example: [Here](project_second_week.zip)
 
 ## 30/11 - JAVASCRIPT
 
-## 07/12 - TO SEE
+Presentation: [JS Presentation](powerpoint/JS.pdf)
+
+**Sources**
+
+- https://www.w3schools.com/js/default.asp
+- https://www.w3schools.com/jsref/default.asp
+- https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
+- https://learnjavascript.online/app.html
+
+## 07/12 - JavaScript Part 2 
 
 ## 14/12 - TO SEE

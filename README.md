@@ -104,6 +104,20 @@ Presentation: [JS Presentation](powerpoint/JS.pdf)
 - https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
 - https://learnjavascript.online/app.html
 
-## 07/12 - JavaScript Part 2 
+## 07/12 - HTML, CSS & JavaScript 
 
-## 14/12 - TO SEE
+Presentation: [HTML, CSS & JS Presentation](powerpoint/HTML,CSS and JS .pdf)
+
+Project Guess The Colour: I will add after the workshop :)
+
+**Sources:**
+
+- https://www.w3schools.com/js/js_random.asp
+- https://www.w3schools.com/howto/howto_css_circles.asp
+- https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
+- https://www.w3schools.com/cssref/func_rgb.asp
+- https://css-tricks.com/snippets/javascript/loop-queryselectorall-matches/
+- https://www.quackit.com/css/color/values/css_rgb_function.cfm
+- https://www.w3schools.com/howto/default.asp
+
+## 14/12 - JQUERY & MORE

@@ -108,7 +108,9 @@ Presentation: [JS Presentation](powerpoint/JS.pdf)
 
 Presentation: [HTML, CSS & JS Presentation](powerpoint/HTML,CSS and JS .pdf)
 
-Project Guess The Colour: I will add after the workshop :)
+Project Guess The Colour: [Here (Made at home)](project_guess_the_colour.zip)
+
+Project Guess The Colour: [Here (Made at class)](project_guess_colour_with_class.zip)
 
 **Sources:**
 

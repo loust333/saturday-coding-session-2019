@@ -122,4 +122,25 @@ Project Guess The Colour: [Here (Made at class)](project_guess_colour_with_class
 - https://www.quackit.com/css/color/values/css_rgb_function.cfm
 - https://www.w3schools.com/howto/default.asp
 
-## 14/12 - JQUERY & MORE
+## 14/12 - JQUERY
+
+The goal for this workshop was to learn more about jQuery.
+
+jQuery is a javascript framework (library) which allows people to write less javascript code.
+
+**jQuery Documentation is here**: [Here](https://www.jquery.com)
+
+**jQuery exercise**: Create a table where we can add the participant names with a button.
+
+**Project Dynamic Table Live**: [Demo](project_jquery/index.html)
+
+**Project Dynamic Table**: [Download Here (Made at class)](project_jquery.zip)
+
+**Sources:**
+
+- [jQuery](https://www.jquery.com)
+- [jQuery Tutorials](https://www.w3schools.com/jquery/)
+- [jQuery versus javascript](http://youmightnotneedjquery.com/)
+
+
+# Congratulations everybody, you did it! :)

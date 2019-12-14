@@ -1,0 +1,11 @@
+table {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: yellow;
+}
+
+tbody {
+    background-color: rgb(100, 200, 244)
+}
